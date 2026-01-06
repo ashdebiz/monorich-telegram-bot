@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 
 # Token dari BotFather
-TOKEN = "YOUR_BOT_TOKEN_HERE"  # Ganti dengan token kau
+TOKEN = "8209398360:AAFu4ycsJNsmfuxLZkuWJRj9H5QHg9KkwdU"  # Ganti dengan token kau
 
 DB_NAME = "monorich.db"
 
@@ -19,7 +19,7 @@ REENTRY_REQUIRED_DEPTH = 10
 REENTRY_COST = 10.00
 
 # Admin Telegram ID (kau kena tahu ID Telegram kau – guna @userinfobot)
-ADMIN_TELEGRAM_ID = 123456789  # Ganti dengan ID Telegram kau
+ADMIN_TELEGRAM_ID = @Malsyam  # Ganti dengan ID Telegram kau
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -190,4 +190,5 @@ async def main():
 
 if __name__ == '__main__':
     import asyncio
+
     asyncio.run(main())
