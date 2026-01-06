@@ -19,7 +19,7 @@ REENTRY_REQUIRED_DEPTH = 10
 REENTRY_COST = 10.00
 
 # Admin Telegram ID (kau kena tahu ID Telegram kau – guna @userinfobot)
-ADMIN_TELEGRAM_ID = @Malsyam  # Ganti dengan ID Telegram kau
+ADMIN_TELEGRAM_ID = Malsyam  # Ganti dengan ID Telegram kau
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -192,3 +192,4 @@ if __name__ == '__main__':
     import asyncio
 
     asyncio.run(main())
+
